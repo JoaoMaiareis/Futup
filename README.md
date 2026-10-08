@@ -1,17 +1,17 @@
-# [Nome do Projeto]
+Futup
 
-> Substitua os trechos entre colchetes `[ ]` pelas informações reais do trabalho. Remova esta nota e as demais orientações em *itálico* antes da entrega.
+
 
 [![Status](https://img.shields.io/badge/status-[em_desenvolvimento]-yellow)]()
 [![Versão](https://img.shields.io/badge/versão-[0.1.0]-blue)]()
 [![Licença](https://img.shields.io/badge/licença-[acadêmica]-lightgrey)]()
 
-**Instituição:** [Nome da instituição]  
-**Curso:** [Nome do curso]  
-**Disciplina:** [Nome da disciplina]  
-**Turma / Semestre:** [Ex.: 2026.2]  
-**Professor(a):** [Nome completo]  
-**Status do projeto:** [Protótipo / MVP / Em desenvolvimento / Concluído]
+**Instituição:** Ceub  
+**Curso:** Ciencia da Computacao 
+**Disciplina:** Desenvolvimento Web 
+**Turma / Semestre:** 2026.4 
+**Professor(a):** Felippe Pires Ferreira 
+**Status do projeto:** Etapa 1
 
 ---
 

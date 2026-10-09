@@ -204,38 +204,49 @@ O projeto está na **Etapa 1** (documentação e arquitetura). Capturas de tela 
 ## 6. Organização dos diretórios
 
 
+## 6. Organização dos diretórios
 
 ```text
 .
-├── README.md                
-├── .env.example              
-├── docs/                     
-│   ├── README.pdf            
-│   └── modelagem/
-│       ├── casos-de-uso/
-│       │   └── especificacoes-casos-de-uso.pdf
-│       ├── classes/
-│       │   └── diagrama-de-classes.pdf
-│       └── banco-de-dados/
-│           ├── diagrama-er.pdf
-│           └── modelo-logico.pdf
-├── images/                   # Figuras da documentação geral (ex.: política de IA)
-├── src/                      # Código-fonte da aplicação
-├── tests/                    # Testes automatizados
-└── scripts/                  # Scripts auxiliares de setup, build ou deploy
+├── README.md
+├── decisoes.md
+└── docs/
+    ├── api/
+    │   └── api.md
+    ├── modelagem/
+    │   ├── arquitetura/
+    │   │   └── Arquitetura_do_Sistema.pdf
+    │   ├── banco-de-dados/
+    │   │   └── Modelo_de_Dados_Futup.pdf
+    │   ├── casos-de-uso/
+    │   │   └── Casos_de_Uso_Futup_2.pdf
+    │   └── classes/
+    │       └── diagrama-de-classes.pdf
+    ├── planejamento/
+    │   └── Planejamento_Futup.pdf
+    ├── plano de integração externa/
+    │   └── Plano_de_Integracao_Ext.pdf
+    ├── prototipo/
+    │   └── figma.md
+    └── visao/
+        └── visao.md
 ```
 
 | Diretório / arquivo | Função |
 | --- | --- |
-| `README.md` | Apresentação do projeto, objetivos, tecnologias e instruções de uso |
-| `.env.example` | Lista das variáveis necessárias, sem credenciais reais |
-| `docs/` | Artefatos de análise e modelagem em PDF |
-| `docs/modelagem/` | Casos de uso, classes e modelo de dados (diagramas embutidos nos PDFs) |
-| `images/` | Figuras da documentação geral do repositório (não usar para diagramas de modelagem) |
-| `src/` | Código-fonte organizado por camada ou módulo |
-| `tests/` | Casos de teste e evidências de verificação |
-| `scripts/` | Automação de ambiente e execução |
-
+| "README.md" |Apresentação geral do projeto, objetivos, visão geral e instruções
+| "decisoes.md" |Registro de decisões de arquitetura, projeto e escopo
+| "docs/" |Pasta raiz de toda a documentação do projeto
+| "docs/api/" |Documentação das rotas, endpoints e contratos da API (api.md)
+| "docs/modelagem/" |Artefatos de modelagem do sistema em formato PDF
+| "docs/modelagem/arquitetura/" |Diagrama e documento da arquitetura do sistema
+| "docs/modelagem/banco-de-dados/" |Modelo de dados e modelo lógico/ER do banco de dados
+| "docs/modelagem/casos-de-uso/" | Especificações e diagramas dos casos de uso
+| "docs/modelagem/classes/" | Diagrama de classes do sistema
+| "docs/planejamento/" | Documentação sobre planejamento, cronograma e fases do projeto
+| "docs/plano de integração externa/" | Documentação de integrações com serviços externos (ex.: API de clima)
+| "docs/prototipo/" | Links e especificações do protótipo no Figma (figma.md)
+| "docs/visao/" | Documento de visão do produto (visao.md)
 ---
 
 ## 7. Participantes
@@ -330,7 +341,7 @@ Este repositório segue a política de uso de IA da disciplina (semáforo pedag�
 
 - **Houve uso de IA neste projeto?** Sim
 - **Ferramentas utilizadas:** Claude (Anthropic), chat gpt e gemini
-- **Finalidade:** apoio na discussão e refinamento das regras de negócio e na redação deste README
+- **Finalidade:** apoio na discussão e refinamento das regras de negócio e na redação do trabalho
 - **O que NÃO foi delegado à IA:** escolha do tema, decisões finais sobre as regras, testes da API Open-Meteo, desisoes 
 
 ---

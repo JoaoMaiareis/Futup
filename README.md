@@ -10,7 +10,7 @@
 **Turma / Semestre:** 2026.4  
 **Professor(a):** Felippe Pires Ferreira  
 **Status do projeto:** Etapa 1 
-
+**Repositorio** https://github.com/JoaoMaiareis/Futup 
 ---
 
 ## Sumário

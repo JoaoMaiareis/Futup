@@ -162,7 +162,8 @@ Escala de intensidade de chuva usada como referência:
 
 O projeto está na **Etapa 1** (documentação e arquitetura). Capturas de tela e vídeo serão adicionados após a implementação, na Etapa 2.
 
-**Vídeo / protótipo:** [a definir]
+**Vídeo / protótipo:** 
+https://www.figma.com/board/mPZ5qZhbOVwgsdgxSfPF7L/Futup_Prototipo_Telas?node-id=5-453&t=f6oc1rOYlW349H1y-1
 
 ---
 
